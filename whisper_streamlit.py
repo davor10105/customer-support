@@ -38,7 +38,7 @@ print("api_key", api_key_present)
 if api_key:
     client = OpenAI(api_key=api_key)
     st.divider()
-    st.image("vulkal.webp")
+    st.image("https://www.vulkal.hr/images/thumbs/0000903_ta%20thumbnail.png")
     messages = st.container()
     # Initialize chat history
     if "messages" not in st.session_state:
